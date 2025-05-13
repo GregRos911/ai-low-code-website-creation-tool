@@ -1,0 +1,3 @@
+[submodule "silex-editor"]
+	path = silex-editor
+	url = https://github.com/silexlabs/Silex.git
