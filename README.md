@@ -1,15 +1,15 @@
 # AI Website Builder (WordPress Plugin)
 
-**AI Website Builder** is a custom WordPress plugin designed to bring visual, low-code website editing directly into the WordPress admin panel. This project is in active development and demonstrates an early integration of a drag-and-drop editor (Silex) with support for Tailwind CSS components.
+**AI Website Builder** is a custom WordPress plugin designed to bring visual, low-code website editing directly into the WordPress admin panel. It integrates the Silex editor inside WordPress and allows users to build simple web pages using a drag-and-drop interface.
 
-The goal is to give users—especially non-developers—the ability to build and edit pages visually, with minimal code, from inside WordPress.
+The project is in active development and demonstrates how WordPress can be extended with modern UI tools like Tailwind CSS and visual builders.
 
 ## 🌟 What It Does So Far
 
 - ✅ Loads the Silex editor UI directly into a WordPress plugin page  
+- ✅ Provides a basic user interface that can generate and edit a simple web page layout  
 - ✅ Responsive layout adjustments using Tailwind CSS  
-- ✅ Custom component development using Tailwind UI elements  
-- ✅ Plugin architecture established and integrated into WordPress admin menu  
+- ✅ Plugin architecture integrated into the WordPress admin menu  
 
 ## 🧰 Tech Stack
 
@@ -29,7 +29,7 @@ The goal is to give users—especially non-developers—the ability to build and
 
 ## 🔌 Future Development Plan
 
-In future versions, layout generation will be handled by a separate AI-powered API running on a VPS (using Ollama + an open-source model). This modular API will respond to prompts from the editor and return layout suggestions to be rendered inside Silex—keeping logic clean and scalable.
+The next phase of the project will integrate an AI-powered layout generation API running on a VPS. This separation of concerns will allow the plugin to request page layouts from the AI and insert them directly into the editor for visual manipulation.
 
 ## 🖼️ Screenshots
 
@@ -37,12 +37,9 @@ In future versions, layout generation will be handled by a separate AI-powered A
 
 ## 🙋‍♂️ Purpose
 
-This project is shared to demonstrate custom plugin development, UI integration, and product thinking. It shows how WordPress can be extended to support modern visual editing workflows while preparing for AI-enhanced features.
+This project is shared to demonstrate custom plugin development, UI integration, and product thinking. It highlights how WordPress can support modern, extensible visual editing experiences.
 
 ## 📄 License
-
-All Rights Reserved © 2025 Gregory Rosenquist  
-This project is shared for portfolio and demonstration purposes only. Reuse or redistribution without permission is not allowed.
 
 ---
 
